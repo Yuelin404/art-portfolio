@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乐凛 · 杨馨元 插画作品集</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        :root{--ink:#2b2b30;--sub:#6b6b73;--line:#e6e3df;--bg:#faf9f7;--card:#ffffff;--accent:#c98aa0;}
+        body{background:var(--bg);color:var(--ink);line-height:1.75;font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;}
+        a{color:inherit;text-decoration:none;}
+        nav{position:sticky;top:0;z-index:90;background:rgba(250,249,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+        .nav-wrap{max-width:1000px;margin:0 auto;padding:16px 24px;display:flex;gap:28px;flex-wrap:wrap;align-items:center;}
+        .nav-brand{font-weight:600;letter-spacing:1px;margin-right:auto;}
+        .nav-wrap a.link{color:var(--sub);font-size:14px;}
+        .nav-wrap a.link:hover{color:var(--ink);}
+        .container{max-width:1000px;margin:0 auto;padding:0 24px;}
+        header.hero{padding:64px 24px 40px;text-align:center;border-bottom:1px solid var(--line);}
+        .hero h1{font-size:34px;font-weight:600;letter-spacing:2px;}
+        .hero .alias{color:var(--sub);font-size:16px;margin-top:6px;}
+        .hero .tagline{margin-top:18px;color:var(--sub);font-size:15px;}
+        .hero .meta{margin-top:10px;font-size:14px;color:var(--sub);}
+        section{padding:48px 0;scroll-margin-top:70px;}
+        h2{font-size:21px;font-weight:600;margin-bottom:20px;border-left:4px solid var(--accent);padding-left:12px;}
+        p{margin-bottom:14px;font-size:15px;}
+        .grid{display:grid;gap:18px;}
+        .grid.portrait{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));}
+        .grid.landscape{grid-template-columns:repeat(auto-fill,minmax(320px,1fr));}
+        .item{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease;}
+        .item:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(0,0,0,.08);}
+        .item img{width:100%;display:block;object-fit:cover;}
+        .item .cap{padding:12px 14px;}
+        .item .cap .title{font-size:14px;font-weight:600;}
+        .item .cap .desc{font-size:13px;color:var(--sub);margin-top:2px;}
+        .block{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-bottom:16px;}
+        .block strong{color:var(--ink);}
+        footer{text-align:center;color:#aaa;font-size:13px;padding:36px 0 48px;border-top:1px solid var(--line);}
+        .lightbox{position:fixed;inset:0;background:rgba(20,18,20,.88);display:none;align-items:center;justify-content:center;z-index:999;padding:24px;}
+        .lightbox.active{display:flex;}
+        .lightbox img{max-width:90%;max-height:90%;border-radius:8px;}
+        @media (max-width:560px){.hero h1{font-size:26px;}.nav-wrap{gap:16px;}}
+    </style>
+</head>
+<body>
+<nav>
+    <div class="nav-wrap">
+        <span class="nav-brand">乐凛</span>
+        <a class="link" href="#about">关于我</a>
+        <a class="link" href="#portrait">单人立绘</a>
+        <a class="link" href="#sheet">成套人设</a>
+        <a class="link" href="#plan">发展规划</a>
+        <a class="link" href="#advantage">个人优势</a>
+        <a class="link" href="#contact">联系我</a>
+    </div>
+</nav>
+<header class="hero">
+    <h1>杨馨元 <span style="color:var(--sub);font-weight:400;">｜ 创作署名：乐凛</span></h1>
+    <div class="alias">日系赛璐璐插画 · 角色立绘 · 成套人设</div>
+    <div class="tagline">美术学（师范）在读，兼具传统美术功底与商业插画创作经验</div>
+    <div class="meta">曲阜师范大学 ｜ 预计 2027 年 6 月毕业</div>
+</header>
+<div class="container">
+    <section id="about">
+        <h2>关于我 About Me</h2>
+        <p>我是杨馨元，创作署名乐凛，目前就读于曲阜师范大学美术学（师范）专业，将于 2027 年 6 月毕业。在校期间，我系统研习国画、油画等多元传统艺术形式，扎实搭建起完整的美术理论体系与造型、色彩功底，同时持续锤炼美术教学设计、课堂实施等教育实践能力，兼具传统艺术底蕴与美育实践素养。</p>
+        <p>在校深耕专业的同时，我始终坚持以实践精进创作、以深造夯实根基的成长路线。我拥有四年商业约稿创作经验，长期在米画师、画加等主流平台独立接单，熟练完成各类商业插画定制需求；2026 年 3 月至 6 月，我在河南省鹤壁市淇县创世纪画室完成教学实习，积累了完整的课堂授课、课程设计、学员指导、美术活动落地经验，兼具创作能力与教学执行能力。</p>
+        <p>我的核心创作方向为日系赛璐璐平面插画，画风色彩明亮、线条干净、画面灵动饱满，适配年轻化、商业化视觉审美。熟练运用 Procreate、Photoshop 完成全流程创作，可独立完成宣传插画、文创图案、视觉配图、主题海报等各类视觉物料，能够精准对接岗位实际落地需求。</p>
+        <p>我现阶段同步筹备考研与岗位投递，始终以长期深耕美术创作作为核心目标。考研旨在进一步精进专业功底、拓宽艺术视野、深化创作深度；求职则希望走入真实工作场景，在视觉宣传、美术创作、美育实践等岗位中积累项目经验，让理论知识与创作能力持续落地，两条路径相辅相成、双向成长。</p>
+        <p>在专业能力上，我不仅具备稳定的绘画输出能力，更拥有成熟的落地执行思维：创作中可独立完成从构思、定稿、调整到成稿输出的完整流程；教学中可独立完成教案撰写、课堂把控、作品指导；活动中可配合完成美术展览、手工美育活动的流程策划与落地执行，能够适配各类美术相关岗位的工作需求。</p>
+    </section>
+    <section id="portrait">
+        <h2>单人立绘 Character Illustration</h2>
+        <div class="grid portrait">
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/nUfVbcVmBb" alt="紫粉格女仆立绘">
+                <div class="cap"><div class="title">紫粉格女仆 · 餐叉主题</div><div class="desc">双马尾角色立绘，Q 版小物搭配</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/CkKJWyNCiD" alt="暖橙柴犬洛丽塔立绘">
+                <div class="cap"><div class="title">暖橙柴犬洛丽塔</div><div class="desc">暖色系双马尾，犬耳元素设计</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/bKV9UPclDE" alt="森系花植少女立绘">
+                <div class="cap"><div class="title">森系花植少女</div><div class="desc">清新绿调，枝叶与花卉元素</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/2D6Fpp7M3C" alt="红金军装猫耳立绘">
+                <div class="cap"><div class="title">红金军装 · 猫耳指挥官</div><div class="desc">制服风角色，利落线条与配色</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/OMhSYAjmfm" alt="黑粉哥特圣诞立绘">
+                <div class="cap"><div class="title">黑粉哥特 · 圣诞礼物</div><div class="desc">甜酷配色，节日主题立绘</div></div>
+            </div>
+        </div>
+    </section>
+    <section id="sheet">
+        <h2>成套人设 Character Sheet</h2>
+        <div class="grid landscape">
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/KdxC27E38I" alt="黑发猫耳蛋糕成套人设">
+                <div class="cap"><div class="title">黑发猫耳蛋糕主题</div><div class="desc">正比 + Q 版多视图成套委托</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/7KYzIzzmKv" alt="蓝发恶魔女仆成套人设">
+                <div class="cap"><div class="title">蓝发恶魔女仆 · 信封主题</div><div class="desc">多表情、多姿态成套设计</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/RcgVVz2Kte" alt="粉发猫耳花束成套人设">
+                <div class="cap"><div class="title">粉发猫耳花束 · 春日元气</div><div class="desc">花束元素与暖色系配色</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/UNH0nfIwik" alt="粉发兔耳天使成套人设">
+                <div class="cap"><div class="title">粉发兔耳天使 · 多视图</div><div class="desc">翅膀天使元素，成套委托稿</div></div>
+            </div>
+            <div class="item" onclick="openLight(this)">
+                <img src="https://aka.doubaocdn.com/s/nGx0fV9824" alt="白发生日蛋糕成套人设">
+                <div class="cap"><div class="title">白发生日蛋糕主题</div><div class="desc">派对配色，正比 + Q 版成套</div></div>
+            </div>
+        </div>
+    </section>
+    <section id="plan">
+        <h2>发展规划</h2>
+        <div class="block">
+            <p><strong>短期目标：</strong>顺利入职美术视觉、宣传设计或美育相关岗位，将自身插画创作、视觉设计能力投入实际工作，持续积累商业项目与宣传视觉经验；同时稳步推进考研备考，持续深耕传统美术与数字绘画领域，不断夯实专业核心竞争力。</p>
+        </div>
+        <div class="block">
+            <p><strong>长期目标：</strong>打通传统美术与现代数字插画的创作边界，融合传统艺术底蕴与当代商业审美，形成具有个人辨识度的创作风格，成长为兼具创作实力、审美能力与落地执行力的综合型美术人才，在视觉创作与艺术美育领域长期深耕、持续精进。</p>
+        </div>
+    </section>
+    <section id="advantage">
+        <h2>个人优势</h2>
+        <div class="block">
+            <p>相较于单一偏向纯艺术或商业插画的求职者，我同时拥有扎实的传统美术功底、长期商业接单经验与师范美育实践经历。既具备油画、国画塑造出的扎实审美基底，又拥有成熟的商业插画输出能力，画风灵动吸睛、适配各类宣传视觉场景；同时兼具耐心、执行力与团队配合意识，既能独立高质量完成创作任务，也能适配教学、宣传、文创类岗位工作，综合适配性强、可塑性高、成长速度快。</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>联系我 Contact</h2>
+        <div class="block">
+            <p>欢迎就视觉设计、插画创作、美育教学等岗位机会与我联系，期待进一步沟通。</p>
+            <p>📮 邮箱：<a href="mailto:yuelin404@163.com" style="color:var(--accent);">yuelin404@163.com</a></p>
+            <p>📱 电话：<a href="tel:17838110706" style="color:var(--accent);">17838110706</a></p>
+        </div>
+    </section>
+</div>
+<footer>
+    <p>乐凛 · 插画作品集 ｜ 2026</p>
+</footer>
+<div class="lightbox" id="lightbox" onclick="closeLight()">
+    <img id="light-img" src="" alt="放大预览">
+</div>
+<script>
+    function openLight(el){
+        const src = el.querySelector('img').src;
+        document.getElementById('light-img').src = src;
+        document.getElementById('lightbox').classList.add('active');
+    }
+    function closeLight(){
+        document.getElementById('lightbox').classList.remove('active');
+    }
+    document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeLight(); });
+</script>
+</body>
+</html>
